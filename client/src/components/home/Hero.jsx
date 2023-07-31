@@ -7,15 +7,15 @@ const Hero = ()=> {
     <section id="hero" className="h-full w-full">
       <div
         className="flex justify-center items-center w-full h-[calc(100vh_*_.66)] bg-cover text-white"
-        style={{backgroundImage: "radial-gradient(rgba(18, 18, 18, 0.2), rgba(18, 18, 18, 0.75)),url(/blender-cropped.jpg)"}}
+        style={{backgroundImage: "radial-gradient(rgba(13, 17, 23, 0.2), rgba(13, 17, 23, 0.75)),url(/blender-cropped.jpg)"}}
       >
         <div className="flex flex-col items-center space-y-4">
           <h1 className="text-6xl">Lorem Ipusm</h1>
           <h2 className="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
           <div className="flex flex-col items-center space-y-2">
-            <div className="flex space-x-2">
+            <div className="flex space-x-4 text-[#121212]">
               <button
-                className="px-12 py-4 bg-[#17151A] rounded"
+                className="px-12 py-4 bg-[#c997ff] rounded-lg text-lg text-bold"
                 onClick={(e) => {
                   e.preventDefault();
                   navigate('/register');
@@ -25,7 +25,7 @@ const Hero = ()=> {
               </button>
 
               <button
-                className="px-12 py-4 bg-[#81818F] rounded"
+                className="px-12 py-4 bg-[#02dac3] rounded-lg text-lg"
                 onClick={(e) => {
                   e.preventDefault();
                   navigate('/sign-in');
@@ -35,7 +35,7 @@ const Hero = ()=> {
               </button>
             </div>
             <div>
-              <Link to="/test" className="underline text-sm">Or Continue for Free</Link>
+              <Link to="/test" className="underline text-sm text-darkmode-text-imp2 hover:text-white">Or Continue for Free</Link>
             </div>
           </div>
         </div>
@@ -50,3 +50,6 @@ export default Hero;
 // {backgroundImage: "linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.2) 50%,rgba(0,0,0,0.75)),url(/blender-sphere-bg.jpg)"}
 
 // "radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75)),url(/blender-cropped.jpg)"
+
+// 17151A
+// 81818F

@@ -7,7 +7,8 @@ module.exports = withMT({
       colors: {
         red: '#ff0000',
         white: '#FFFFFF',
-        background_color: '#212121',
+        background_color: '#0d1117',
+        background_color_alt: '#212121',
         darkmode: {
           text: {
             imp2: '#c1c1c1',
