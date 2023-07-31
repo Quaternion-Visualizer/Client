@@ -7,7 +7,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex w-full h-16 bg-background_color">
+    <header className="flex w-full h-16">
       <nav className="flex w-full h-full justify-center text-darkmode-text-imp2 bg-white bg-opacity-5">
 
         <div className="h-full">
