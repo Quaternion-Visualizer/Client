@@ -35,7 +35,7 @@ const Hero = ()=> {
               </button>
             </div>
             <div>
-              <Link to="/test" className="underline text-sm text-darkmode-text-imp2 hover:text-white">Or Continue for Free</Link>
+              <Link to="/demo" className="underline text-sm text-darkmode-text-imp2 hover:text-white">Or Continue for Free</Link>
             </div>
           </div>
         </div>

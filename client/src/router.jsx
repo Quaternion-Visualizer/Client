@@ -6,6 +6,7 @@ import Test from './Test.jsx';
 import Home from './components/home/index.jsx';
 import Dashboard from './components/dashboard/index.jsx';
 import FourOhFour from './components/404/404.jsx';
+import QVisualizer from './components/q-visualizer/index.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: '/test',
     element: <Test />
+  },
+  {
+    path: '/demo',
+    element: <QVisualizer />
   },
   {
     path: '*',
