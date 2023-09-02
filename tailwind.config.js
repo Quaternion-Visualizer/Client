@@ -11,6 +11,8 @@ module.exports = withMT({
         background_color_alt: '#212121',
         darkmode: {
           text: {
+            imp1: '#FFFFFF',
+            imp1_hover: '#FFFFFF',
             imp2: '#c1c1c1',
             imp2_hover: '#969696',
           }

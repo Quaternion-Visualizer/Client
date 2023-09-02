@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ThreeCanvas from './three-canvas.jsx';
+import Overlay from './overlay.jsx';
 
 const QVisualizer = () => {
   //Oh wow, I am in way over my head on this one aren't I....

@@ -10,22 +10,24 @@ const Hero = ()=> {
         style={{backgroundImage: "radial-gradient(rgba(13, 17, 23, 0.2), rgba(13, 17, 23, 0.75)),url(/blender-cropped.jpg)"}}
       >
         <div className="flex flex-col items-center space-y-4">
-          <h1 className="text-6xl">CubeD.JS</h1>
+          <h1 className="text-6xl">Cub3D.JS</h1>
           <h2 className="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
           <div className="flex flex-col items-center space-y-2">
             <div className="flex space-x-4 text-[#121212]">
-              <button
-                className="px-12 py-4 bg-[#c997ff] rounded-lg text-lg text-bold"
-                onClick={(e) => {
-                  e.preventDefault();
-                  navigate('/register');
-                }}
-              >
-                Register
-              </button>
+              <div className="">
+                <button
+                  className="px-10 py-2 bg-[#c997ff] rounded-lg text-lg text-bold"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigate('/register');
+                  }}
+                  >
+                  Register
+                </button>
+              </div>
 
               <button
-                className="px-12 py-4 bg-[#02dac3] rounded-lg text-lg"
+                className="px-10 py-2 bg-[#02dac3] rounded-lg text-lg"
                 onClick={(e) => {
                   e.preventDefault();
                   navigate('/sign-in');

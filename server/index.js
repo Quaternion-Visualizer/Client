@@ -10,5 +10,5 @@ app.use('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/dist', 'index.html'))
 })
 
-app.listen(3000);
+app.listen(3001);
 console.log('Server listening on port 3000');
